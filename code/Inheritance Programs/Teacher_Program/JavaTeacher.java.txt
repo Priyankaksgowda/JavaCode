@@ -1,0 +1,8 @@
+public class JavaTeacher  extends Teacher
+{
+String sub="java";
+   void doProject()
+    {
+	System.out.println("JavaTecher teaching  "+sub+" Project");
+    }
+}
