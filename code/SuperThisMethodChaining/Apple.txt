@@ -1,0 +1,27 @@
+public class Apple extends Fruit
+{
+ int cost;
+ public Apple()
+ {
+	 this(320);
+	 System.out.println("zero para constructor");
+ }
+ public Apple(int cost)
+ {
+	 super();
+	 this.cost=cost;
+	 System.out.println("one para constructor");
+	 }
+ public Apple (String color,int cost)
+ {
+	 this();
+	 this.color=color;
+	 this.cost=cost;
+	 System.out.println("two  para constructor");
+ }
+ public void disp()
+ {
+	 System.out.println(color);
+	 System.out.println(cost);
+ }
+}

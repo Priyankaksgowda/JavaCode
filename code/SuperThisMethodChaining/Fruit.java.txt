@@ -1,0 +1,15 @@
+public class Fruit
+{
+	String color;
+	public Fruit()
+	{
+		this("pink");
+		System.out.println("zero para-constructor");
+	}
+	public Fruit(String color)
+	{
+		this.color=color;
+		System.out.println("one para constructor");
+	}
+
+}
